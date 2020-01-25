@@ -23,7 +23,7 @@ class OssDriver extends Driver
 
         return new OssAdapter(
             $ossConfig['access_key'],
-            $ossConfig['assess_secret'],
+            $ossConfig['secret_key'],
             $ossConfig['end_point'],
             $ossConfig['bucket'],
             $ossConfig['is_cname'],
