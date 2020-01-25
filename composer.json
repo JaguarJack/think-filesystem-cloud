@@ -1,0 +1,24 @@
+{
+    "name": "jaguarjack/think-filesystem-cloud",
+    "description": "cloud filesystem for thinkphp6.0",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "jaguarjack",
+            "email": "njphper@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "qcloud/cos-sdk-v5": "dev-master",
+        "guzzlehttp/guzzle": "^6.3",
+        "aliyuncs/oss-sdk-php": "~2.3",
+        "qiniu/php-sdk": "^7.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "jaguarjack\\filesystem\\Colud\\": "src"
+        }
+    }
+}
