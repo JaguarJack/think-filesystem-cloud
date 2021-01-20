@@ -15,7 +15,6 @@
         "overtrue/flysystem-qiniu": "^1.0",
         "overtrue/flysystem-cos": "^2.0",
         "iidestiny/flysystem-oss": "^2.5",
-        "jaguarjack/think-filesystem-cloud": "dev-master"
     },
     "autoload": {
         "psr-4": {
